@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="eng"> 
+    <link href="StyleSheet2.css" rel="StyleSheet">
+    <link rel="shortcut icon" href="android-icon-192x192.png">
+    <head>
+        <style> 
+        div {
+          width: 100px;
+          height: 100px;
+          position: relative;
+          animation-name: Sidebar;
+          animation-duration: 4s;
+          animation-delay: -2s;
+        }
+        
+        @keyframes Sidebar {
+          0%   {background-color:rgb(53, 53, 53); left:0px; top:0px;}
+          25%  {background-color:green; left:200px; top:0px;}
+          50%  {background-color:green; left:200px; top:200px;}
+          75%  {background-color:red; left:0px; top:200px;}
+          100% {background-color:rgb(53, 53, 53); left:0px; top:0px;}
+        }
+        </style>
+        </head>
+        <body>
+        
+       
+        
+        </body>
+    <style>
+          
+
+            .sidenav {
+                height: 100%; 
+                width: 160px; 
+                position: fixed; 
+                z-index: 1px; 
+                top: 0px; 
+                left: 0px; 
+                background-color: rgb(53, 53, 53); 
+                overflow-x: hidden; 
+                padding-top: 20px;
+            } 
+
+            .sidenav a {
+                padding: 6px 8px 6px 16px; 
+                text-decoration: none; 
+                color: red; 
+                display: block;
+            } 
+
+            .sidenav a:hover {
+                color: green;
+            } 
+
+            .main {
+                margin-left: 160px; 
+                font-size: 28px; 
+                padding: 0px 10px;
+            } 
+
+            @media screen and (max-height: 450px) 
+            {
+                .sidenav {padding-top: 15px; } 
+                .sidenav a { font-size: 18px;}
+            }
+
+    </style>
+            
+        
+
+       <h1> TAP</h1> 
+
+    </head> 
+    <body> 
+        <div class="sidenav"> 
+            <a href="HomePage.html"> Home Page</a>
+            <a href="AchivementsPage.html"> TAPS Achivements</a> 
+            <a href="4StrandsPage.html"> TAP News</a> 
+            <a href="TAPMerch.html"> TAP Merch Store</a> 
+        </div> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.example {
+  background-color: red;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="example">Resize the browser to make me move</div>
+
+
+
+</body>
+</html>
